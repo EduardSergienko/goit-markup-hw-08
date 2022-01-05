@@ -45,7 +45,7 @@ footer {
 }
 
 .container {
-  width: 1200px;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -274,12 +274,6 @@ header {
   margin-bottom: 50px;
 }
 
-.we-doing__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .we-doing__item {
   margin-right: 30px;
 }
@@ -332,12 +326,6 @@ header {
 
 .our-team {
   background: #f5f4fa;
-}
-
-.our-team-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .our-team-list__item {
@@ -434,9 +422,6 @@ header {
 }
 
 .our-client__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -494,9 +479,6 @@ header {
 .footer {
   margin-left: auto;
   margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .footer-info {
@@ -612,7 +594,6 @@ header {
 }
 
 .subscribe {
-  width: 570px;
   margin-top: 12px;
   margin-left: 93px;
 }
@@ -650,9 +631,6 @@ header {
 }
 
 .subscribe__form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 20px;
 }
 
