@@ -2,9 +2,14 @@
   padding-bottom: 0;
 }
 .principle__item {
-  width: 270px;
+  // width: 270px;
   display: block;
+  width: 100%;
+  @media screen and (min-width: 400px) and (max-width: 786px) {
+    margin-bottom: 30px;
+  }
 }
+
 .principle__item {
   margin-right: 30px;
   &:last-child {
@@ -28,6 +33,7 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .decoration {
