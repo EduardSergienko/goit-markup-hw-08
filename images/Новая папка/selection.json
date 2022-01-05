@@ -1,0 +1,111 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M270.131 529.203l-4.71-4.506-4.71 4.437-65.809 62.396 5.188 4.983 243.371 232.107 4.71-4.506 517.461-493.636-5.188-4.915-64.922-61.918-4.71 4.506-447.351 426.394-173.329-165.342z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 13.653333333333334
+          }
+        ],
+        "width": 1092,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "icon_check"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 13.653333333333334
+        }
+      ],
+      "properties": {
+        "order": 94,
+        "id": 1,
+        "name": "icon_check",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1194.667 0h-1024c-70.4 0-127.403 57.6-127.403 128l-0.597 768c0 70.4 57.6 128 128 128h1024c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM1169.067 272.043l-452.437 282.795c-9.65 6.022-21.368 9.593-33.92 9.593s-24.27-3.571-34.194-9.752l0.274 0.159-452.523-282.88c-16.11-9.631-26.73-26.982-26.73-46.813 0-30.021 24.337-54.357 54.357-54.357 11.162 0 21.539 3.364 30.17 9.135l-0.197-0.124 428.8 268.203 428.8-268.203c8.434-5.646 18.811-9.010 29.973-9.010 30.021 0 54.357 24.337 54.357 54.357 0 19.831-10.62 37.182-26.483 46.676l-0.247 0.137z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 1365,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "mailic"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 95,
+        "id": 0,
+        "name": "mailic",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 1
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
