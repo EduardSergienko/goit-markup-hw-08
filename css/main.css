@@ -619,8 +619,10 @@ header {
   margin-right: auto;
 }
 
-.footer-info {
-  width: 231px;
+@media screen and (max-width: 767px) {
+  .footer-info {
+    text-align: center;
+  }
 }
 
 .footer-contacts__address {
@@ -650,11 +652,11 @@ header {
 }
 
 .footer-contacts__item {
-  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-contacts__item:last-child {
-  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer-info__logo {
@@ -674,15 +676,29 @@ header {
   color: var(--activity-text-color);
 }
 
+@media screen and (max-width: 767px) {
+  .footer-info__logo {
+    margin-right: 0;
+    font-size: 24px;
+  }
+}
+
 .footer-info__text {
   color: var(--activity-text-color);
 }
 
 .joing {
   display: block;
-  margin-left: 70px;
   margin-top: 12px;
   width: 206px;
+}
+
+@media screen and (max-width: 767px) {
+  .joing {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
 }
 
 .joing__title {
@@ -692,6 +708,12 @@ header {
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .joing__title {
+    text-align: center;
+  }
 }
 
 .joing-list {
@@ -733,7 +755,13 @@ header {
 
 .subscribe {
   margin-top: 12px;
-  margin-left: 93px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe {
+    text-align: center;
+    margin-top: 60px;
+  }
 }
 
 .subscribe__title {
@@ -765,7 +793,14 @@ header {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-left: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe__button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 }
 
 .subscribe__form {
@@ -816,6 +851,12 @@ header {
       -ms-flex-align: center;
           align-items: center;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe__input {
+    width: 100%;
+  }
 }
 
 .subscribe__icon {

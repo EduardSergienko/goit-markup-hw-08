@@ -4,7 +4,10 @@
   // display: flex;
 }
 .footer-info {
-  width: 231px;
+  // width: 231px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .footer-contacts__address {
   color: var(--second-complementary-color);
@@ -34,8 +37,8 @@
   margin-bottom: 9px;
 }
 .footer-contacts__item {
-  margin-top: 9px;
+  margin-bottom: 9px;
   &:last-child {
-    margin-top: 0;
+    margin-bottom: 0;
   }
 }
