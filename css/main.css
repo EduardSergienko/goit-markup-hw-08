@@ -619,7 +619,7 @@ header {
   margin-right: auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-info {
     text-align: center;
   }
@@ -676,7 +676,7 @@ header {
   color: var(--activity-text-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-info__logo {
     margin-right: 0;
     font-size: 24px;
@@ -693,7 +693,7 @@ header {
   width: 206px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .joing {
     margin-left: auto;
     margin-right: auto;
@@ -710,7 +710,7 @@ header {
   color: #ffffff;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .joing__title {
     text-align: center;
   }
@@ -757,7 +757,7 @@ header {
   margin-top: 12px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .subscribe {
     text-align: center;
     margin-top: 60px;
@@ -795,7 +795,7 @@ header {
   border-radius: 4px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .subscribe__button {
     margin-left: auto;
     margin-right: auto;
@@ -853,9 +853,9 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .subscribe__input {
-    width: 100%;
+    width: 450px;
   }
 }
 
