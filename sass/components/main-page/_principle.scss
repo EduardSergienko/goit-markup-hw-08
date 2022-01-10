@@ -1,16 +1,12 @@
 .principle__item {
-  // width: 270px;
   display: block;
   width: 100%;
-
+  margin-bottom: 30px;
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
 
-  @media screen and (max-width: 767px) {
-    margin-bottom: 30px;
-  }
   &:last-child {
     @media screen and (max-width: 767px) {
       margin-bottom: 0;

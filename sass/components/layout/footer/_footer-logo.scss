@@ -5,17 +5,19 @@
 
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
+
   line-height: 1.19;
+
+  margin-right: 0;
+  font-size: 24px;
 
   margin-bottom: 20px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus {
     color: var(--activity-text-color);
   }
-  @media screen and (max-width: 1199px) {
-    margin-right: 0;
-    font-size: 24px;
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
   }
 }
 

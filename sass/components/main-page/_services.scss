@@ -1,5 +1,5 @@
 .we-doing {
-  @media screen and(max-width: 1200px) {
+  @media screen and(max-width: 1199px) {
     display: none;
   }
 }
@@ -13,9 +13,9 @@
   text-align: center;
   margin-bottom: 50px;
 }
-// .we-doing__list {
-//   display: flex;
-// }
+.we-doing__list {
+  display: flex;
+}
 .we-doing__item {
   margin-right: 30px;
   &:last-child {

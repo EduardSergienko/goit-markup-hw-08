@@ -201,29 +201,88 @@ header {
 
 .hero {
   display: block;
-  max-width: 1600px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img.jpg);
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_mobile_1x.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_mobile_1x.jpg);
   background-color: var(--complementary-backgraund-color);
   background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_mobile_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_mobile_2x.jpg);
+    background-color: var(--complementary-backgraund-color);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_tablet_1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_tablet_1x.jpg);
+    background-color: var(--complementary-backgraund-color);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_tablet_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_tablet_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img.jpg);
+    background-color: var(--complementary-backgraund-color);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_2x.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .hero__title {
   color: var(--second-complementary-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  max-width: 696px;
+  max-width: 360px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
 }
 
 .hero__button {
@@ -245,18 +304,13 @@ header {
 .principle__item {
   display: block;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .principle__item {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .principle__item {
-    margin-bottom: 30px;
   }
 }
 
@@ -343,7 +397,7 @@ header {
           align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .we-doing {
     display: none;
   }
@@ -356,6 +410,12 @@ header {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.we-doing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .we-doing__item {
@@ -513,12 +573,18 @@ header {
 }
 
 .our-client__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: -15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1190px) {
+  .our-client__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -534,10 +600,15 @@ header {
 
 .our-client__item {
   height: 92px;
-  width: calc((100% - 4 * 15px) / 2);
-  margin: 15px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 480px) and (max-width: 1190px) {
+  .our-client__item {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 }
 
 .our-client__item:hover, .our-client__item:focus {
@@ -688,8 +759,9 @@ header {
   text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
   line-height: 1.19;
+  margin-right: 0;
+  font-size: 24px;
   margin-bottom: 20px;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -699,10 +771,9 @@ header {
   color: var(--activity-text-color);
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .footer-info__logo {
-    margin-right: 0;
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
@@ -852,7 +923,7 @@ header {
 }
 
 .subscribe__input {
-  width: 450px;
+  width: 100%;
   background-color: var(--complementary-backgraund-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;

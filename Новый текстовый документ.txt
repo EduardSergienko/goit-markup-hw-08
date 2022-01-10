@@ -30,3 +30,39 @@
 «C4» Вёрстка выполнена относительно трёх точек перелома: 480px, 768px и 1200px.
 
 «C5» Выполнено оформление мобильного меню.
+
+
+Десктопные
+
+.hero {
+  display: block;
+  // max-width: 1600px;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg_img.jpg);
+  background-color: var(--complementary-backgraund-color);
+  background-repeat: no-repeat;
+}
+
+.hero__title {
+  color: var(--second-complementary-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
