@@ -608,9 +608,16 @@ header {
   }
 }
 
-.footer {
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 768px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -636,7 +643,6 @@ header {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-info {
-    margin-left: 76px;
     width: 232px;
     text-align: center;
   }
@@ -705,29 +711,29 @@ header {
 }
 
 .joing {
-  display: block;
-  margin-left: 70px;
-  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
   width: 206px;
-}
-
-@media screen and (max-width: 1199px) {
-  .joing {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .joing {
     margin: 0;
-    margin-left: 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .joing {
+    margin-left: 70px;
+    margin-top: 12px;
+    width: 206px;
   }
 }
 
 .joing__title {
   margin-bottom: 20px;
+  text-align: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -735,9 +741,9 @@ header {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .joing__title {
-    text-align: center;
+    text-align: start;
   }
 }
 
@@ -899,23 +905,6 @@ header {
 
 .subscribe__icon {
   margin-left: 10px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-tablet-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: -15px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-tablet-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 .backdrop {
