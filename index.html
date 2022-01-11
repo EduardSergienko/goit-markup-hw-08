@@ -184,17 +184,35 @@
           <h2 class="our-team__title">Наша команда</h2>
           <ul class="our-team-list">
             <li class="our-team-list__item">
-              <img
-                srcset="
-                  ./images/ihor_mob_450.jpg 1x,
-                  ./images/ihor_mob_900.jpg 2x,
-                  ./images/ihor_tab_354.jpg 1x,
-                  ./images/ihor_tab_708.jpg 2x
-                "
-                width="100%"
-                src="./images/ihor_1.jpg"
-                alt="Игорь Демьяненко"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/ihor_mob_450.jpg 1x,
+                    ./images/ihor_mob_900.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/ihor_tab_354.jpg 1x,
+                    ./images/ihor_tab_708.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/ihor_1.jpg 1x, ./images/ihor_1_2x.jpg 2x"
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/ihor_1.jpg"
+                  alt="Игорь Демьяненко"
+                  width="100%"
+                />
+              </picture>
+
               <div class="worker">
                 <h3 class="worker__name">Игорь Демьяненко</h3>
                 <p class="worker__position">Product Designer</p>
@@ -235,7 +253,35 @@
               </div>
             </li>
             <li class="our-team-list__item">
-              <img src="./images/olha_2.jpg" alt="Ольга Репина" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/olha_mob_450.jpg 1x,
+                    ./images/olha_mob_900.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/olha_tab_354.jpg 1x,
+                    ./images/olha_tab_708.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/olha_2.jpg 1x, ./images/olha_2_2x.jpg 2x"
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/olha_2.jpg"
+                  alt="Ольга Репина"
+                  width="100%"
+                />
+              </picture>
+
               <div class="worker">
                 <h3 class="worker__name">Ольга Репина</h3>
                 <p class="worker__position">Frontend Developer</p>
