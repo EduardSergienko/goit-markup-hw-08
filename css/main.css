@@ -210,6 +210,7 @@ header {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_mobile_1x.jpg);
   background-color: var(--complementary-backgraund-color);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -470,7 +471,13 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+  .our-team-list__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-team-list__item {
     max-width: 354px;
     width: calc((100% - 4 * 15px) / 2);
@@ -488,7 +495,19 @@ header {
   background: #f5f4fa;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+  .our-team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-team-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -496,6 +515,20 @@ header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -531,9 +564,9 @@ header {
 
 .social-box {
   margin-top: 16px;
-  margin-right: 32px;
-  margin-bottom: 30px;
-  margin-left: 32px;
+  margin-right: 122px;
+  margin-bottom: 24px;
+  margin-left: 122px;
 }
 
 @media screen and (min-width: 768px) {
@@ -545,7 +578,7 @@ header {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .social-box {
     margin-top: 16px;
     margin-right: 32px;

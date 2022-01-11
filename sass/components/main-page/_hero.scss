@@ -14,6 +14,7 @@
     url(/images/bg_img_mobile_1x.jpg);
   background-color: var(--complementary-backgraund-color);
   background-repeat: no-repeat;
+  background-size: cover;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
