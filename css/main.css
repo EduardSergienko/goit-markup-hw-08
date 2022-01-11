@@ -473,6 +473,8 @@ header {
 @media screen and (min-width: 768px) {
   .our-team-list__item {
     max-width: 354px;
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
   }
 }
 
@@ -484,6 +486,17 @@ header {
 
 .our-team {
   background: #f5f4fa;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .our-team__title {
@@ -521,6 +534,15 @@ header {
   margin-right: 32px;
   margin-bottom: 30px;
   margin-left: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-box {
+    margin-top: 16px;
+    margin-right: 74px;
+    margin-bottom: 24px;
+    margin-left: 74px;
+  }
 }
 
 .social-box__list {
@@ -984,6 +1006,12 @@ header {
 @media screen and (min-width: 1200px) {
   .subscribe__input {
     width: 358px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe__input {
+    width: 450px;
   }
 }
 

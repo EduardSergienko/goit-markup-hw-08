@@ -6,6 +6,8 @@
   border-radius: 0px 0px 4px 4px;
   @media screen and (min-width: 768px) {
     max-width: 354px;
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
   }
   @media screen and (min-width: 1200px) {
     max-width: 270px;
@@ -16,9 +18,14 @@
   background: #f5f4fa;
 }
 
-// .our-team-list {
-//   display: flex;
-// }
+.our-team-list {
+  // display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
 // .our-team-list__item {
 //   margin-left: 30px;
 // }
@@ -60,6 +67,12 @@
   margin-right: 32px;
   margin-bottom: 30px;
   margin-left: 32px;
+  @media screen and (min-width: 768px) {
+    margin-top: 16px;
+    margin-right: 74px;
+    margin-bottom: 24px;
+    margin-left: 74px;
+  }
 }
 .social-box__list {
   display: flex;
