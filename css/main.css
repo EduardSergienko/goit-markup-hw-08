@@ -218,7 +218,7 @@ header {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_mobile_2x.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -246,6 +246,7 @@ header {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -254,6 +255,7 @@ header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_2x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_2x.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
