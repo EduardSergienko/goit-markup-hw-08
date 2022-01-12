@@ -118,6 +118,7 @@
   background-color: transparent;
   border: none;
   z-index: 50;
+
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -132,9 +133,18 @@
 .menu-button.is-open .menu-button__open-menu {
   display: none;
 }
-.menu-button__open-menu:hover {
-  fill: steelblue;
-}
-.menu-button__close-menu:hover {
-  fill: var(--activity-text-color);
+// .menu-button__open-menu &:hover,
+// &:focus {
+//   fill: (var(--activity-text-color));
+// }
+
+// .menu-button__close-menu &:hover,
+// &:focus {
+//   fill: (var(--activity-text-color));
+// }
+.menu-button__svg {
+  &:hover,
+  &:focus {
+    fill: (var(--activity-text-color));
+  }
 }

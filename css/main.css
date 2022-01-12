@@ -48,6 +48,10 @@ header {
   position: relative;
 }
 
+img {
+  display: block;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -443,11 +447,7 @@ header {
   display: none;
 }
 
-.menu-button__open-menu:hover {
-  fill: steelblue;
-}
-
-.menu-button__close-menu:hover {
+.menu-button__svg:hover, .menu-button__svg:focus {
   fill: var(--activity-text-color);
 }
 
@@ -721,6 +721,7 @@ header {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -756,6 +757,7 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: -30px;
   }
 }
 
@@ -807,45 +809,25 @@ header {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .worker {
   text-align: center;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
-.social-box {
-  margin-top: 16px;
-  margin-right: 122px;
-  margin-bottom: 24px;
-  margin-left: 122px;
-}
-
-@media screen and (min-width: 768px) {
-  .social-box {
-    margin-top: 16px;
-    margin-right: 74px;
-    margin-bottom: 24px;
-    margin-left: 74px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .social-box {
-    margin-top: 16px;
-    margin-right: 32px;
-    margin-bottom: 30px;
-    margin-left: 32px;
-  }
+.social-box__link:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-box__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social-box__item {
@@ -931,6 +913,15 @@ header {
   height: 92px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 479px) {
+  .our-client__item {
+    margin-bottom: 30px;
+  }
+  .our-client__item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1190px) {
