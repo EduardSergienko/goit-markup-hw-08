@@ -186,14 +186,12 @@ header {
   }
 }
 
+.mobile-menu.is-open {
+  display: block;
+}
+
 .mobile-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: none;
   position: absolute;
   width: 100%;
   top: 100%;
@@ -296,7 +294,7 @@ header {
   color: var(--activity-text-color);
 }
 
-.mobile-menu__social-link::after {
+.mobile-menu__social-item:not(:last-child)::after {
   content: "";
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
