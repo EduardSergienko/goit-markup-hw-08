@@ -443,6 +443,14 @@ header {
   display: none;
 }
 
+.menu-button__open-menu:hover {
+  fill: steelblue;
+}
+
+.menu-button__close-menu:hover {
+  fill: var(--activity-text-color);
+}
+
 .hero {
   display: block;
   text-align: center;
@@ -450,8 +458,8 @@ header {
   margin-right: auto;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_mobile_1x.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_mobile_1x.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img_mobile_1x.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img_mobile_1x.jpg);
   background-color: var(--complementary-backgraund-color);
   background-repeat: no-repeat;
   background-size: cover;
@@ -459,8 +467,8 @@ header {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_mobile_2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_mobile_2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img_mobile_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img_mobile_2x.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -469,8 +477,8 @@ header {
 
 @media screen and (min-width: 481px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_tablet_1x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_tablet_1x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img_tablet_1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img_tablet_1x.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
   }
@@ -478,8 +486,8 @@ header {
 
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_tablet_2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_tablet_2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img_tablet_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img_tablet_2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -487,8 +495,8 @@ header {
 
 @media screen and (min-width: 769px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -497,8 +505,8 @@ header {
 
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/bg_img_2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg_img_2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg_img_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg_img_2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1311,6 +1319,7 @@ header {
   bottom: 0;
   width: 100%;
   height: 100%;
+  padding: 93px 15px;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1322,20 +1331,23 @@ header {
           transform: translate(-50%, -50%) scale(0);
 }
 
+@media screen and (max-width: 767px) {
+  .backdrop {
+    padding: 93px 15px;
+  }
+}
+
 .backdrop--is-hidden {
   opacity: 0;
   pointer-events: none;
 }
 
 .modal {
-  position: absolute;
-  width: 528px;
+  max-width: 450px;
   height: 581px;
   background-color: #ffffff;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1370,7 +1382,13 @@ header {
 .modal-form {
   width: 448px;
   margin: 0 auto;
-  margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-form {
+    padding: 40px;
+    width: 100%;
+  }
 }
 
 .modal-form__title {
@@ -1499,12 +1517,21 @@ header {
 }
 
 .policy__link {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-size: 14px;
   line-height: 1.71;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
+}
+
+@media screen and (max-width: 767px) {
+  .policy__link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 
 .policy__label {
@@ -1517,6 +1544,13 @@ header {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+}
+
+@media screen and (max-width: 767px) {
+  .policy__label {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 
 .modal-form__submit {
@@ -1554,7 +1588,7 @@ header {
   height: 15px;
   border: 2px solid var(--main-text-color);
   border-radius: 4px;
-  margin-right: 8.38px;
+  margin-right: 8px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 1ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 1ms cubic-bezier(0.4, 0, 0.2, 1);
 }

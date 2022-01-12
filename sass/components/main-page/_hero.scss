@@ -11,7 +11,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/bg_img_mobile_1x.jpg);
+    url(../images/bg_img_mobile_1x.jpg);
   background-color: var(--complementary-backgraund-color);
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/bg_img_mobile_2x.jpg);
+      url(../images/bg_img_mobile_2x.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/bg_img_tablet_1x.jpg);
+      url(../images/bg_img_tablet_1x.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
     @media (min-device-pixel-ratio: 2),
@@ -42,7 +42,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/images/bg_img_tablet_2x.jpg);
+        url(../images/bg_img_tablet_2x.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -52,7 +52,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/bg_img.jpg);
+      url(../images/bg_img.jpg);
     background-color: var(--complementary-backgraund-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/images/bg_img_2x.jpg);
+        url(../images/bg_img_2x.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
