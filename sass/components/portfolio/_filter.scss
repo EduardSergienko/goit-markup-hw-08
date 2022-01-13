@@ -1,7 +1,12 @@
 .portfolio-filter {
   margin-bottom: 50px;
   display: flex;
-
+  @media screen and (max-width: 479px) {
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
   @media screen and (max-width: 767px) {
     flex-wrap: wrap;
     margin-left: -4px;

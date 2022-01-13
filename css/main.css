@@ -1570,6 +1570,9 @@ header {
   .policy__label {
     font-size: 12px;
     line-height: 1.16;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 
@@ -1608,7 +1611,7 @@ header {
   height: 15px;
   border: 2px solid var(--main-text-color);
   border-radius: 4px;
-  margin-right: 8px;
+  margin-right: 5px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 1ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 1ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1626,6 +1629,18 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .portfolio-filter {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -4px;
+    margin-bottom: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1702,6 +1717,27 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    margin: -15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__item {
+    margin-bottom: 30px;
+  }
+  .portfolio__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__item {
+    margin: 15px;
+  }
 }
 
 .portfolio__title {
