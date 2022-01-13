@@ -63,6 +63,9 @@
   margin-bottom: 32px;
 }
 .mobile-menu__contacts-tell {
+  @media screen and (max-width: 479px) {
+    font-size: 25px;
+  }
   color: var(--activity-text-color);
   text-decoration: none;
   display: inline-flex;
