@@ -597,6 +597,13 @@ header {
   line-height: 1.71;
 }
 
+@media screen and (max-width: 479px) {
+  .principle__list {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .principle__list {
     display: -webkit-box;
@@ -796,6 +803,12 @@ header {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 479px) {
+  .our-team__title {
+    padding-top: 30px;
+  }
 }
 
 .worker__name {

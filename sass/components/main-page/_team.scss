@@ -47,6 +47,10 @@
 //   margin-left: 30px;
 // }
 .our-team__title {
+  @media screen and (max-width: 479px) {
+    padding-top: 30px;
+  }
+
   color: var(--main-text-color);
 
   font-weight: bold;
