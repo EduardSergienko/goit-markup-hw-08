@@ -13,12 +13,8 @@
   }
   @media screen and (max-width: 767px) {
     padding: 93px 15px;
-    // overflow-y: scroll;
+    overflow-y: scroll;
   }
-  // @media screen and (min-width: 768px) {
-  //   // overflow-y: scroll;
-  //   padding: 208px 159px;
-  // }
 }
 
 .backdrop--is-hidden {
