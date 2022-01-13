@@ -868,6 +868,13 @@ header {
   fill: white;
 }
 
+@media screen and (max-width: 479px) {
+  .our-client {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .our-client__title {
   font-weight: bold;
   font-size: 28px;

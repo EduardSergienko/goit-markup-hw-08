@@ -1,3 +1,10 @@
+.our-client {
+  @media screen and (max-width: 479px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .our-client__title {
   font-weight: bold;
   font-size: 28px;
