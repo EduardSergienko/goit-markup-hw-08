@@ -5,7 +5,9 @@
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-
+  @media screen and(max-width:479px) {
+    padding-bottom: 30px;
+  }
   @media screen and (min-width: 768px) {
     margin: -15px;
   }
@@ -83,7 +85,9 @@
   top: 0;
 
   transform: translateY(100%);
-
+  @media screen and (max-width: 479px) {
+    transform: translateY(101%);
+  }
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .portfolio__link:hover & {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
