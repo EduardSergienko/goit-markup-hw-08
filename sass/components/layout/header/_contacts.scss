@@ -25,6 +25,13 @@
 }
 
 .contacts__item {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     margin-right: 30px;
     &:last-child {

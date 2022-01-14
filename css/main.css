@@ -268,6 +268,15 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts__item {
+    margin-bottom: 10px;
+  }
+  .contacts__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .contacts__item {
     margin-right: 30px;
