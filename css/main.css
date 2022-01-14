@@ -309,6 +309,12 @@ header {
           justify-content: space-between;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-menu.is-open {
+    display: none;
+  }
+}
+
 .mobile-menu {
   display: none;
   position: absolute;
