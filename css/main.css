@@ -788,7 +788,7 @@ header {
 
 @media screen and (min-width: 1200px) {
   .our-team-list__item {
-    max-width: 270px;
+    width: 270px;
   }
 }
 
